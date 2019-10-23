@@ -72,6 +72,7 @@ public class Invention1 {
                 painter.end();
                 System.out.println("Thanks You For Your Help!....");
                 break;
+
             } else {
                 JOptionPane.showMessageDialog(null, "Unrecognizable command:" + command.toUpperCase());
             }
